@@ -40,9 +40,9 @@ const TransactionForm = ({ setTransactionForm }) => {
           onChange={changeHandler}
         />
       </div>
-      <div className="flex flex-row    w-3/4 p-2 justify-between items-center">
+      <div className="flex flex-col md:flex-row  w-full space-y-2 md:space-y-0 space-x-2  md:w-3/4 p-2 justify-between items-center">
         <div
-          className={`space-x-2 bg-red-700 p-2 rounded-md text-white shadow-md ${
+          className={`w-2/4 md:w-1/4 lg:w-1/2 flex justify-center items-center space-x-2 bg-red-700 p-2 rounded-md text-white shadow-md ${
             inputCheak === "experise" && "shadow-red-500"
           }`}
         >
@@ -60,7 +60,7 @@ const TransactionForm = ({ setTransactionForm }) => {
           />
         </div>
         <div
-          className={`space-x-2 bg-green-700 p-2 rounded-md text-white shadow-md ${
+          className={`w-2/4 md:w-1/4 lg:w-1/2 flex justify-center items-center space-x-2 bg-green-700 p-2 rounded-md text-white shadow-md ${
             inputCheak === "income" && "shadow-green-500"
           }`}
         >

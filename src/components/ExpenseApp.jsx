@@ -25,7 +25,7 @@ const ExpenseApp = () => {
   };
 
   return (
-    <div className="flex flex-col space-y-4 items-center w-1/4 mt-5 mb-5 p-2 px-4  ">
+    <div className="flex flex-col space-y-4 items-center w-full lg:w-2/6 xl:w-1/4 mt-5 mb-5 p-2 px-4  ">
       <header className="flex justify-center items-center font-bold text-xl">
         <h2>Expense Tracker</h2>
       </header>
